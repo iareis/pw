@@ -1,9 +1,10 @@
 <?php
 
-class Alunos {
-
+class Alunos
+{
     // Call to the database
-    public function getAlunosFunction() {
+    public function getAlunosFunction()
+    {
         return Database::query("SELECT * FROM alunos");
     }
 }
